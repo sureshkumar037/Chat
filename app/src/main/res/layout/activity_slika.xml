@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ff000000"
+    tools:context="com.example.neno.chatapp.Slika">
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Slikaj"
+        android:id="@+id/slikaj" />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Galerija"
+        android:id="@+id/galerija" />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Postavi za sliku profila"
+        android:id="@+id/uploadaj" />
+
+    <ImageView
+        android:id="@+id/profilna"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="25dp"
+
+        android:layout_gravity="center" />
+
+</LinearLayout>

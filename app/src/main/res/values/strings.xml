@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chat aplikacija</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pocetna">Pocetna</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registracija">Registracija</string>
+    <string name="title_activity_slika">Slika</string>
+    <string name="title_activity_slika1">Slika1</string>
+    <string name="title_activity_create_poll">CreatePoll</string>
+
+</resources>

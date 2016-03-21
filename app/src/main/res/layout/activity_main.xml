@@ -1,0 +1,111 @@
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+     tools:context=".MainActivity">
+
+
+
+
+ <!--   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_prikazi"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_prikazi1"
+        android:layout_gravity="center_horizontal" /> -->
+
+    <ListView android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal"
+
+        android:layout_height="430dp"
+        android:background="#ff000000" />
+
+
+    <LinearLayout
+        android:background="#ff000000"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_height="40dp" android:layout_gravity="left|center_vertical">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ff000000"
+        android:padding="4dp"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:layout_gravity="left|center_vertical">
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/edit_text_design"
+            android:id="@+id/messageContentEditText" android:layout_gravity="center_horizontal|top"
+            android:hint=" Upiši poruku..." />
+
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape1"
+        android:text="Šalji"
+        android:id="@+id/sendButton"
+        android:layout_gravity="center"/>
+
+  <!--  <Button
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="log"
+        android:id="@+id/log" />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Slikaj"
+        android:id="@+id/slikaj" />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Galerija"
+        android:id="@+id/galerija" />  -->
+
+
+
+</LinearLayout>
+
+
+
